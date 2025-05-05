@@ -1,17 +1,13 @@
 
 import Banner from './components/Banner/Banner';
-import CampoTexto from './components/CampoTexto/CampoTexto';
+import Form from './components/Form/Form.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <CampoTexto label="Nome"/>  
-      <CampoTexto label="Cargo"/>  
-      <CampoTexto label="Imagem"/>  
-
+      <Banner/>
+      <Form label='preencha com os dados dos colaboradores'/>
     </div>
-  );
-}
+);}
 
-export default App;
+      export default App;
