@@ -12,10 +12,3 @@
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.formulario form button{
-    padding: 15px;
-    border: none;
-    background-color: rgb(47, 144, 235);
-    color: white;
-    border-radius: 5px;
-}

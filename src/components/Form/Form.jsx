@@ -1,6 +1,7 @@
 import './Form.css';
 import CampoTexto from '../CampoTexto/CampoTexto';
 import ListaSuspensa from '../ListaSuspensa/ListaSuspensa';
+import Button from '../Button/Button';
 
 function Form(props) {
 
@@ -22,7 +23,9 @@ function Form(props) {
                 <CampoTexto label="Cargo" placeholder="digite seu cargo" />
                 <CampoTexto label="Imagem" placeholder="informe o endereço da imagem" />
                 <ListaSuspensa itens={times} label="Times"/>
-                <button>criar card</button>
+                <Button>
+                    Criar Card
+                </Button>	
             </form>
         </section>
     )
