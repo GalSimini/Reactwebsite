@@ -23,7 +23,12 @@ function Form(props) {
 
     const onSave = (evento) => {
         evento.preventDefault()
-        console.log('Formulário enviado')
+        props.aoColaboradorCadastrado({
+            nome,
+            cargo,
+            imagem,
+            time
+        })
     }
 
     return (
